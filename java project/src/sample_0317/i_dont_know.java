@@ -16,10 +16,12 @@ public class i_dont_know {
 
 	for(int b=1;b<=9;b++){
 		for(int a=3;a<=9;a+=2){
-			System.out.println("*");
-			System.out.println("b");
-			System.out.println("=");
-			System.out.println(a*b);
+			System.out.print(a);
+			System.out.print("*");
+			System.out.print(b);
+			System.out.print("=");
+			System.out.print(a*b);
+			System.out.print("  ");
 		}
 		System.out.println("  ");
 }
