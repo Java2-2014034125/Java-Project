@@ -4,7 +4,22 @@ public class TelevisionTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Television mytv = new Television();
+		
+		
+		
+		Television myTV = new Television(7,10,true);
+		myTV.print();
+		Television yourTV = new Television(11,20,true);
+		yourTV.print();
+		
+		Television testTV = new Television();
+		testTV.print();
+		
+		Television testTV2 = new Television(30,20);
+		testTV2.print();
+		
+		
+/*		Television mytv = new Television();
 		mytv.channel = 18;
 		mytv.volume = 12;
 		mytv.onOff = true;
@@ -29,7 +44,7 @@ public class TelevisionTest {
 		yourtv.changeChannel(24);
 		System.out.println("current channel :" + yourtv.changeChannel(24));
 		
-		yourtv.print();
+		yourtv.print();*/
 	}
 
 }
