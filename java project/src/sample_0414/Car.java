@@ -24,7 +24,7 @@ public class Car {
 	}
 	
 
-	public Car(){this(4,3,"red");}{//man =4;tire=4;color="red";}
+	public Car(){this(4,3,"red");}{man =4;tire=4;color="red";}
 	
 	public Car(int man, int tire, String color){
 		this.man = man;
